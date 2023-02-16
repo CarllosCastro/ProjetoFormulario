@@ -1,0 +1,95 @@
+:root {
+    --blue: #93f3d8;
+    --hover: #ff0000cb;
+    --black: #0e0f0ee0;
+    --font: 'Inter';
+
+}
+
+body {
+    font-family: Inter;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: var(--black);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#link {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav div a {
+    font-family: var(--font);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#nav h1 {
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    font-family: var(--font);
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+#link a:hover {
+    color: var(--hover);
+}
+
+.principal {
+    display: flex;
+}
+
+.name {
+    margin: 30px 20px 10px 40px;
+    align-items: center;
+    width: 100%;
+}
+
+.name h3 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.name input {
+    width: 200px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size:15px;
+    background-color:var(--black);
+    color: white;
+    border: 1px var(--black) solid;
+    border-radius: 10px;
+}
+
+select {
+    width:200px;
+    height:35px;
+    font-family: var(--font);
+    font-size:15px;
+    color: rgb(196, 196, 196);
+    background-color:var(--black);
+    padding-left:0px;
+    border: 1px var(--black) solid;
+    border-radius: 10px;
+    }
+    
+    option {
+    background-color: var(--black);
+    color: white;
+    }
