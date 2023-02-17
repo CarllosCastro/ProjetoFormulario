@@ -41,58 +41,116 @@
                     <h3>Escolha sua Idade:</h3>
                     <select required name="Idade">
                         <option selected>Escolha sua Idade</option>
-                        <option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option>
-                        <option>22</option><option>23</option><option>24</option><option>25</option><option>26</option>
-                        <option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
-                        <option>32</option><option>33</option><option>34</option><option>35</option><option>36</option>
-                        <option>37</option><option>38</option><option>39</option><option>40</option><option>41</option>
-                        <option>42</option><option>43</option><option>44</option><option>45</option><option>46</option>
-                        <option>47</option><option>48</option><option>49</option><option>50</option><option>51</option>
-                        <option>52</option><option>53</option><option>54</option><option>55</option><option>56</option>
-                        <option>57</option><option>58</option><option>59</option><option>60</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                        <option>32</option>
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                        <option>43</option>
+                        <option>44</option>
+                        <option>45</option>
+                        <option>46</option>
+                        <option>47</option>
+                        <option>48</option>
+                        <option>49</option>
+                        <option>50</option>
+                        <option>51</option>
+                        <option>52</option>
+                        <option>53</option>
+                        <option>54</option>
+                        <option>55</option>
+                        <option>56</option>
+                        <option>57</option>
+                        <option>58</option>
+                        <option>59</option>
+                        <option>60</option>
                         <option>Mais que 60</option>
                     </select>
                 </div>
             </div>
-            </div>
             <div class="principal">
-                <p>
-                    <label>Digite sua Mensagem:</label><br>
+                <div class="textarea">
+                    <h3>Sobre Você:</h3>
                     <textarea rows="10" cols="40" required placeholder="Digite algo..." name="Mensagem"></textarea>
-                </p>
+                </div>
+                <div class="textarea">
+                    <h3>O que Espera pro Futuro?</h3>
+                    <textarea rows="10" cols="40" required placeholder="Digite algo..." name="Mensagem"></textarea>
+                </div>
             </div>
             <div class="principal">
-                <p>
-                    <label>Quais esportes você pratica?</label>
-                <ul>
-                    <li><input checked value="SIM" type="checkbox" name="Handebol">Handebol</li>
-                    <li><input value="SIM" type="checkbox" name="Futebol">Futebol</li>
-                    <li><input value="SIM" type="checkbox" name="Volei">Vôlei</li>
-                </ul>
-                </p>
+                <div>
+                    <h3>Quais esportes você pratica?</h3>
+                    <ul>
+                        <li><input value="SIM" type="checkbox" name="Skate">Skate</li>
+                        <li><input value="SIM" type="checkbox" name="Futebol">Futebol</li>
+                        <li><input value="SIM" type="checkbox" name="Volei">Vôlei</li>
+                        <li><input value="SIM" type="checkbox" name="Judo">Judô</li>
+                        <li><input value="SIM" type="checkbox" name="Natacao">Natação</li>
+                        <li>Outro<input placeholder="Escreva Aqui..." type="text" name="Outro"></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Qual sua Cor Favorita?</h3>
+                    <ul>
+                        <li><input value="Vermelho" type="radio" name="CorPreferida">Vermelho</li>
+                        <li><input value="Azul" type="radio" name="CorPreferida">Azul</li>
+                        <li><input value="Rosa" type="radio" name="CorPreferida">Rosa</li>
+                        <li><input value="Branco" type="radio" name="CorPreferida">Branco</li>
+                        <li><input value="Preto" type="radio" name="CorPreferida">Preto</li>
+                        <li>Outro<input placeholder="Escreva Aqui..." type="text" name="Outro"></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Qual sua Comida Favorita?</h3>
+                    <ul>
+                        <li><input value="Lasanha" type="radio" name="ComidaPreferida">Lasanha</li>
+                        <li><input value="Pizza" type="radio" name="ComidaPreferida">Pizza</li>
+                        <li><input value="Lanche" type="radio" name="ComidaPreferida">Lanche</li>
+                        <li><input value="Açai" type="radio" name="ComidaPreferida">Açai</li>
+                        <li><input value="Sorvete" type="radio" name="ComidaPreferida">Sorvete</li>
+                        <li>Outro<input placeholder="Escreva Aqui..." type="text" name="Outro"></li>
+                    </ul>
+                </div>
             </div>
             <div class="principal">
-                <p>
-                    <label>Escolha sua cor favorita:</label><br>
-                <ul>
-                    <li><input value="Azul" name="CorFavorita" type="radio">Azul</li>
-                    <li><input value="Vermelho" name="CorFavorita" type="radio">Vermelho</li>
-                    <li><input value="Verde" name="CorFavorita" type="radio">Verde</li>
-                </ul>
-                </p>
-            </div>
-            <div class="principal">
-                <p>
-                    <label>Escolha sua cidade:</label><br>
-                    <select>
-                        <option>Rio de Janeiro</option>
+                <div>
+                    <h3>Estado:</h3>
+                    <select name="Estado" required>
+                        <option>São Paulo</option>
                         <option>Belo Horizonte</option>
-                        <option selected>São Paulo</option>
+                        <option>Rio de Janeiro</option>
                         <option>Amazonas</option>
                         <option>Curitiba</option>
                         <option>Fortaleza</option>
                     </select>
-                </p>
+                </div>
+                <div class="principal">
+                    <h3>Cidade:</h3>
+                    <input type="text" placeholder="Escreva sua Cidade..." name="Cidade" required>
+                </div>
             </div>
             <div class="principal">
                 <p>
