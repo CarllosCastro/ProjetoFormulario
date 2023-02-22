@@ -31,15 +31,15 @@
             <div class="principal">
                 <div class="name">
                     <h3>Digite Seu Nome:</h3>
-                    <input placeholder="Digite seu Nome..." name="Nome" type="text" required>
-                </div>
-                <div class="name">
                     <h3>Digite Seu Sobrenome:</h3>
-                    <input placeholder="Digite seu Sobrenome..." name="Sobrenome" type="text" required>
-                </div>
-                <div class="name">
                     <h3>Escolha sua Idade:</h3>
-                    <select required name="Idade">
+                </div>
+            </div>
+            <div class="principal">
+                <div class="name">
+                    <input class="input" placeholder="Digite seu Nome..." name="Nome" type="text" required>
+                    <input class="input" placeholder="Digite seu Sobrenome..." name="Sobrenome" type="text" required>
+                    <select class="input" required name="Idade">
                         <option selected>Escolha sua Idade</option>
                         <option>16</option>
                         <option>17</option>
@@ -138,9 +138,9 @@
                 </div>
             </div>
             <div class="principal">
-                <div>
+                <div class="textarea2">
                     <h3>Estado:</h3>
-                    <select name="Estado" required>
+                    <select id="estado" name="Estado" required>
                         <option>Acre (AC)</option>
                         <option>Alagoas (AL)</option>
                         <option>Amapá (AP)</option>
@@ -170,16 +170,21 @@
                         <option>Tocantins (TO)</option>
                     </select>
                 </div>
-                <div class="principal">
+                <div class="textarea2">
                     <h3>Cidade:</h3>
-                    <textarea id="textarea" rows="3" cols="25" required placeholder="Digite algo..." name="Mensagem"></textarea>
+                    <textarea id="textarea" rows="3" cols="25" required placeholder="Digite algo..."
+                        name="Mensagem"></textarea>
                 </div>
             </div>
             <div class="principal">
-                <p>
-                    <input value="SIM" name="TermosDoContrato" required type="checkbox"> Aceito os termos do
-                    contrato.
-                </p>
+                <div id="final">
+                    <p>
+                        <input value="SIM" name="TermosDoContrato" required type="checkbox"> *Aceito os termos do
+                        contrato.
+                    </p>
+                </div>
+            </div>
+            <div class="principal">
                 <button id="button" type="submit">Enviar</button>
             </div>
         </form>

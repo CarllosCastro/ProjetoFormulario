@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+section {
+    background: linear-gradient(to bottom right, var(--black) 33%, var(--hover) 90%);
+}
+
 #nav {
     display: flex;
     height: 100px;
@@ -18,6 +22,8 @@ body {
     background-color: var(--black);
     justify-content: space-between;
     align-items: center;
+    border: 1px solid var(--hover);
+    box-shadow: 5px 10px 5px var(--hover);
 }
 
 #link {
@@ -55,21 +61,20 @@ body {
 }
 
 .name {
-    margin: 60px 20px 10px 40px;
-    align-items: center;
+    
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .name h3 {
     text-align: left;
     font-size: 25px;
+    margin-top: 60px;
 }
 
-.name input {
-    width: 200px;
+.name .input {
     height: 30px;
-    margin-top: 0px;
-    margin-bottom: 20px;
     font-size: 15px;
     background-color: var(--black);
     color: white;
@@ -113,11 +118,11 @@ option {
 }
 
 input[type="checkbox"] {
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 input[type="radio"] {
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 .label {
@@ -159,3 +164,33 @@ input[type="radio"] {
     font-size: 15px;
 }
 
+.textarea2 {
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.textarea2 h3 {
+    font-size: 25px;
+}
+
+.principal .textarea2 textarea {
+    border: 0;
+    height: 30px;
+    margin-bottom: 60px;
+}
+
+.principal #final {
+    font-size: 18px;
+    margin: 0px 0px 20px 40px;
+    font-weight: bold;
+}
+
+.principal #button {
+    background-color: var(--black);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 30px;
+    margin: 0px 0px 50px 40px;
+}
